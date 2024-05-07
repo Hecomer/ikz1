@@ -29,6 +29,7 @@ def fibonacci_method(a, b, n, i):
     else:
         return fibonacci_method(x1, b, n, i)  # вызываем метод на правой части отрезка
 
+
 # Запрос ввода пользователем
 a = float(input("Введите a: "))
 b = float(input("Введите b: "))

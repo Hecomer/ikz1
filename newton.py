@@ -3,13 +3,13 @@ import math
 
 
 def function(x):
-    # return math.sqrt(1+x**2)+np.exp(-2*x)
-    return 3*x*math.sin(x)
+    return math.sqrt(1+x**2)+np.exp(-2*x)
+    # return 3*x*math.sin(x)
 
 
 def function1(x):
-    # return x/(math.sqrt(1+x**2))-2/(np.exp(2*x))
-    return 3*math.sin(x)+3*x*math.cos(x)
+    return x/(math.sqrt(1+x**2))-2/(np.exp(2*x))
+    # return 3*math.sin(x)+3*x*math.cos(x)
 
 
 def function2(x):
